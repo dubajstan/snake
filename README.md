@@ -66,7 +66,6 @@ void setup(char pole[20][20])
 		for (int j = 0; j < 20; j++)
 			pole[j][i] = 'p';
 }
-
 void kierunek()
 {
 	if (_kbhit())
