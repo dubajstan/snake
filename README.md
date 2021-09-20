@@ -1,3 +1,6 @@
+[snake1.zip](https://github.com/dubajstan/snake/files/7198357/snake1.zip)
+
+
 #include <iostream>
 #include <queue>
 #include <Windows.h>
@@ -66,6 +69,7 @@ void setup(char pole[20][20])
 		for (int j = 0; j < 20; j++)
 			pole[j][i] = 'p';
 }
+
 void kierunek()
 {
 	if (_kbhit())
